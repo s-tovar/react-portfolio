@@ -1,8 +1,10 @@
+import Navigation from './components/Navigation';
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Project from './components/Project';
-// ... import other components
+import './App.css';
 
 function App() {
   return (
