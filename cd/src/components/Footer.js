@@ -3,9 +3,8 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <a href="your_github_link">GitHub</a>
-      <a href="your_linkedin_link">LinkedIn</a>
-      <a href="your_third_platform_link">Third Platform (e.g. Stack Overflow)</a>
+      <a href="https://github.com/s-tovar">GitHub</a>
+      <a href="https://www.linkedin.com/in/steven-tovar-contreras/">LinkedIn</a>
     </footer>
   );
 }
