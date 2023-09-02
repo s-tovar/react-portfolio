@@ -11,25 +11,25 @@ import './App.css';
 //array of projects
 const projects = [
   {
-    title: "FitTrack",
-    image: "./assets/Images/Screenshot1.png",
-    deployedLink: "https://example.com/project1",
+    title: "Waist Watcher",
+    image: "cd/src/components/images/Screenshot 2023-05-04 at 10.32.12 AM.png",
+    deployedLink: "https://mrbll48.github.io/waist-watchers/",
     repoLink: "https://github.com/user/project1",
-    description: "Description for FitTrack"
+    description: "A web application designed to help users create a unique and personalized workoutroutine tailored to their individual needs and preferences."
   },
   {
-    title: "Another Project",
-    image: "./assets/Images/Screenshot2.png",
-    deployedLink: "https://example.com/project2",
+    title: "DevShop",
+    image: "cd/src/components/images/Project 3.png",
+    deployedLink: "https://obscure-plains-49755-cc46b608f24f.herokuapp.com/",
     repoLink: "https://github.com/user/project2",
-    description: "Description for Another Project"
+    description: "A specialized e-commerce platform developed specifically for software developers."
   },
   {
-    title: "Another Project",
-    image: "./assets/Images/Screenshot2.png",
-    deployedLink: "https://example.com/project2",
+    title: "FitTrack",
+    image: "cd/src/components/images/Screenshot 2023-09-01 at 9.38.46 AM.png",
+    deployedLink: "https://desolate-eyrie-82722-36505de48b12.herokuapp.com/",
     repoLink: "https://github.com/user/project2",
-    description: "Description for Another Project"
+    description: "a comprehensive fitness platform designed to help users manage and optimize their exercise routines."
   }
 ];
 
