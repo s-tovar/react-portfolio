@@ -1,21 +1,22 @@
-import React, { useState } from 'react';
+import { Link, useLocation } from "react-router-dom";
+import React from 'react';
 
 function Navigation() {
-  const [activeTab, setActiveTab] = useState('About Me');
-
-  return (
-    <nav>
-      {['About Me', 'Portfolio', 'Contact', 'Resume'].map(tab => (
-        <button
-          key={tab}
-          onClick={() => setActiveTab(tab)}
-          className={activeTab === tab ? 'active' : ''}
-        >
-          {tab}
-        </button>
-      ))}
-    </nav>
-  );
-}
-
-export default Navigation;
+    const location = useLocation();
+    const currentPath = location.pathname;
+  
+    return (
+      <nav>
+        {['/', '/about', '/contact', '/project'].map((path, index) => {
+          const titles = ['Home', 'About Me', 'Contact', 'Project'];
+          return (
+            <Link key={path} to={path} className={currentPath === path ? 'active' : ''}>
+              {titles[index]}
+            </Link>
+          );
+        })}
+      </nav>
+    );
+  }
+  
+  export default Navigation;
