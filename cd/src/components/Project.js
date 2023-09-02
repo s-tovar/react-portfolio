@@ -9,7 +9,7 @@ function Project({ title, image, deployedLink, repoLink, description }) {
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
             <a href={deployedLink} className="btn btn-success" target="_blank" rel="noopener noreferrer">View Project</a>
-            <a href={repoLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            {/* <a href={repoLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a> */}
           </div>
         </div>
       </div>

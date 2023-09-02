@@ -4,8 +4,10 @@ import React from 'react';
 function Header() {
   return (
     <header>
+        <div className="text-white">
       <h1>Steven Tovar-Contreras</h1>
       {/* <Navigation /> */}
+      </div>
     </header>
   );
 }

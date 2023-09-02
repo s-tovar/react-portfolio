@@ -24,8 +24,8 @@ export default function About() {
           projects that make a difference. Feel free to reach out at
           {
             <MailToBtn
-              label="s.tovar2936@gmail.com"
-              mailto="s.tovar2936@gmail.com"
+              label=" s.tovar2936@gmail.com "
+              mailto=" s.tovar2936@gmail.com "
             />
           }
           if you'd like
