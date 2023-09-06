@@ -10,7 +10,11 @@ function Navigation() {
         {['/', '/about', '/contact', '/project'].map((path, index) => {
           const titles = ['Home', 'About Me', 'Contact', 'Project'];
           return (
-            <Link key={path} to={path} className={currentPath === path ? 'active' : ''}>
+            <Link 
+            key={path} 
+            to={path} 
+            className={`btn btn-success ${index < titles.length - 1 ? 'nav-button' : ''} ${currentPath === path ? 'active' : ''}`}
+            >
               {titles[index]}
             </Link>
           );
