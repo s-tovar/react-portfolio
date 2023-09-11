@@ -14,6 +14,11 @@ export default function Contact() {
               mailto="s.tovar2936@gmail.com"
             />
           }
+          <div className="p-3">
+            <a href="images/resume.pdf" download="resume.pdf" className="btn btn-primary">
+              Download My Resume
+            </a>
+          </div>
         </div>
       </div>
     );
