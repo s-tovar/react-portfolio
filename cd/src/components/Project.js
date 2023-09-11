@@ -4,7 +4,7 @@ function Project({ title, image, deployedLink, repoLink, description }) {
     return (
       <div className="col-md-6 col-lg-4 mb-4">
         <div className="card h-100 border border-5">
-          <img src={image} className="card-img-top" alt={title} />
+          <img src={process.env.PUBLIC_URL + '/' + image} className="card-img-top" alt={title} />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
